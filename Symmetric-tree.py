@@ -2,7 +2,7 @@
 Problem url - 
 '''
 
-#---------------------------- Recursive Solution ------------------------------
+#---------------------------- Recursive Solution better in terms of memory usage ------------------------------
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -20,7 +20,7 @@ class Solution:
         
         return helper(root, root)
         
- #------------------ Iterative Solution - little better than recursive -----------------------
+ #------------------ Iterative Solution - little better than recursive in terms of execution time-----------------------
  # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
